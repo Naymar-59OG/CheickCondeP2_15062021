@@ -1,0 +1,174 @@
+html,
+body {
+  font-family: Raleway, Arial, Helvetica, sans-serif;
+}
+.boxMilieu{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+/* la section de navigation et de rechercher */
+}
+.elementAutour{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.decoration0 {
+    text-decoration: none;
+}
+
+.flexBetween{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Bordure0{
+    border: none;
+}
+.blue{
+    color: #0065fc;
+}
+.blueWhite{
+    color: #dbeeff;
+}
+.grey{
+    color: #f2f2f2;
+}
+.ArrBlue{
+    background-color: #0065fc;
+}
+.ArrBlueWhite{
+    background-color: #dbeeff;
+}
+.ArrGrey{
+    background-color: #f2f2f2;
+}
+.tailleDesenteteliens{
+    width: 45%;
+   
+}
+.Tx_Gras {
+    font-weight: bold;
+  }
+
+.tailleDesentetelien{
+    width: 140px;
+    height: 99px;
+
+}
+        
+
+.colorA{
+    color: black;
+}
+
+.Navbordure{
+    border-top: 1px solid blue;
+}
+.heighNave{
+    height: 100px;
+}
+.sizeLien12 {
+    margin-left: 60%;
+  }
+  .colorLien2 {
+    color: black;
+  }
+  .sizeLien {
+    width: 140px;
+    height: 99px;
+ }
+
+.searchBoder{
+    width: 400px;
+    border-radius: 10px;
+    border: 0.5px solid #f2f2f2;
+}
+.cadreSearch{
+    padding-left: 20px;
+    
+}
+.search{
+    height: 50px;
+    width: 230px;
+    font-size:18px;
+    color: black;
+    font-weight: bold;
+}
+
+.T_icone{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px 0 0 10px;
+}
+.boutton_search{
+    height: 50px;
+    width: 120px;
+    color:white;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+}
+/*la section des filtre de recherche*/
+.disposyFiltre{
+    display: flex;
+    align-items: center;
+}
+.formFiltre{
+    margin-top: 50px;
+    margin-bottom:40px;
+}
+.Filtre{
+    margin-right: 20px;
+    
+
+}
+.Icone_filtre{
+    border: 2px solid #f2f2f2;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 20px;
+   
+}
+.F_icones{
+    margin: -2px;
+    border-radius: 25px;
+    width: 52px;
+    height: 52px;
+    color: #0065fc;
+    background-color: #f2f2f2;   
+}
+.Icone_filtre:hover > .T_filtre{
+    color: #0065fc;
+}
+.Icone_filtre:hover > .F_icones{
+    color: white;
+    background-color: #0065fc;
+}
+.T_filtre{
+    height: 50px;
+    padding-left:20px ;
+    padding-right:20px;
+    border-radius: 0 25px 25px 0;
+}
+.icone_Info{
+    color: #0065fc;
+}
+.sytle_Icone{ 
+    display: flex;
+    align-items: center;
+     margin: -2px;
+}
+.cercle_icone{
+    width: 20px;
+    height: 20px;
+    border: 2px solid #dbeeff;
+    border-radius: 25px;
+    margin-right: 5px;
+}
+.Center{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
