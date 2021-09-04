@@ -12,8 +12,8 @@ body {
 }
 .elementAutour{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+  justify-content: space-around;
+  align-items: center;
 }
 .decoration0 {
     text-decoration: none;
@@ -171,4 +171,86 @@ body {
     display: flex;
   justify-content: center;
   align-items: center;
+}
+.T_hébergement{
+    flex: 2;
+    height: 650px;
+    margin-right: 15px;
+    border-radius: 10px;
+
+}
+.T_populaire{
+    flex: 1;
+    height: 650px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.img_1{
+    background-image: url("./hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+    background-size: cover;
+    background-size: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+.img_2{
+    background-image: url("./hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+    background-size: cover;
+    background-size: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+.img_3{
+    background-image: url("./hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+    background-size: cover;
+    background-size: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+.img_4{
+    background-image: url("./hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+    background-size: cover;
+    background-size: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+.img_5{
+    background-image: url("./hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+    background-size: cover;
+    background-size: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+.img_6{
+    background-image: url("./hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
+    background-size: cover;
+    background-size: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+.dispo_hébergements{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.alignements_hébergmentsMilieu{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+}
+.alignements_hébergmentsAutour{
+    display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.alignements_hébergmentsBetween{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
