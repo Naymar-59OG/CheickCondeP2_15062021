@@ -155,7 +155,7 @@ body {
 .icone_Info{
     color: #0065fc;
 }
-.sytle_Icone{ 
+.style_Icone{ 
     display: flex;
     align-items: center;
      margin: -2px;
@@ -172,6 +172,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+/* section hébergement*/
 .T_hébergement{
     flex: 2;
     height: 650px;
@@ -179,6 +180,14 @@ body {
     border-radius: 10px;
 
 }
+.blocHéberge1{
+    margin-bottom: 10px;
+    
+  }
+.blocHéberge2{
+    margin-top: 10px;
+  }
+
 .T_populaire{
     flex: 1;
     height: 650px;
@@ -239,18 +248,19 @@ body {
 }
 .alignements_hébergmentsMilieu{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;    
 }
 
-}
 .alignements_hébergmentsAutour{
     display: flex;
-  justify-content: space-around;
-  align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  
 }
 .alignements_hébergmentsBetween{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+  flex-direction: column;
+  justify-content: space-between;
+}   
