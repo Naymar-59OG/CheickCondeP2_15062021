@@ -34,7 +34,7 @@ body {
     color: #dbeeff;
 }
 .grey{
-    color: #f2f2f2;
+    color: #f2f2f2f3;
 }
 .ArrBlue{
     background-color: #0065fc;
@@ -43,7 +43,7 @@ body {
     background-color: #dbeeff;
 }
 .ArrGrey{
-    background-color: #f2f2f2;
+    background-color: #f2f2f2fa;
 }
 .tailleDesenteteliens{
     width: 45%;
@@ -264,3 +264,11 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }   
+.CadreImage {
+    width: 30%;
+    height: auto;
+    background-color: white;
+    padding: 1%;
+    border-radius: 20px;
+  }
+  
