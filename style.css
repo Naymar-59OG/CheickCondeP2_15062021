@@ -175,7 +175,7 @@ body {
 /* section hébergement*/
 .T_hébergement{
     flex: 2;
-    height: 650px;
+    height: 750px;
     margin-right: 15px;
     border-radius: 10px;
 
@@ -190,7 +190,7 @@ body {
 
 .T_populaire{
     flex: 1;
-    height: 650px;
+    height: 750px;
     margin-left: 20px;
     border-radius: 10px;
 }
@@ -199,7 +199,7 @@ body {
     background-size: cover;
     background-size: center;
     width: 100%;
-    height: 120px;
+    height: 160px;
     border-radius: 15px 15px 0 0;
 }
 .img_2{
@@ -207,7 +207,7 @@ body {
     background-size: cover;
     background-size: center;
     width: 100%;
-    height: 120px;
+    height: 160px;
     border-radius: 15px 15px 0 0;
 }
 .img_3{
@@ -215,7 +215,7 @@ body {
     background-size: cover;
     background-size: center;
     width: 100%;
-    height: 120px;
+    height: 160px;
     border-radius: 15px 15px 0 0;
 }
 .img_4{
@@ -223,15 +223,16 @@ body {
     background-size: cover;
     background-size: center;
     width: 100%;
-    height: 120px;
+    height: 170px;
     border-radius: 15px 15px 0 0;
+
 }
 .img_5{
     background-image: url("./hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
     background-size: cover;
     background-size: center;
     width: 100%;
-    height: 120px;
+    height: 160px;
     border-radius: 15px 15px 0 0;
 }
 .img_6{
@@ -239,7 +240,7 @@ body {
     background-size: cover;
     background-size: center;
     width: 100%;
-    height: 120px;
+    height: 160px;
     border-radius: 15px 15px 0 0;
 }
 .dispo_hébergements{
@@ -271,4 +272,41 @@ body {
     padding: 1%;
     border-radius: 20px;
   }
+  .Populaire{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .imgPop1{
+    background-image: url("./hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+    background-size: cover;
+    background-size: center;
+    width: 35%;
+    height: 160px;
+    border-radius: 15px 0 0 15px;
+  }
+  .imgPop2{
+    background-image: url("./hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
+    background-size: cover;
+    background-size: center;
+    width: 35%;
+    height: 160px;
+    border-radius: 15px 0 0 15px;
+  }
+  .imgPop3{
+    background-image: url("./hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
+    background-size: cover;
+    background-size: center;
+    width: 35%;
+    height: 160px;
+    border-radius: 15px 0 0 15px;
+  }
   
+  .BoxPop{
+    background-color: white;
+    height: auto;
+    padding: 1% 0 1% 1%;
+    border-radius: 20px;
+  }
+  .espacementPop{
+    margin-bottom: 30px;
+  }
