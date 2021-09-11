@@ -129,7 +129,7 @@ body {
     height: 50px;
     border-radius: 30px;
     margin-right: 20px;
-   
+    
 }
 .F_icones{
     margin: -2px;
@@ -309,4 +309,111 @@ body {
   }
   .espacementPop{
     margin-bottom: 30px;
+
+  }
+  /* début de la partie activités à Marseille*/
+  .box_Activ{
+    width: 100%;
+    height: 600px;
+  }
+  .Activités{
+    margin-top: 50px;
+    margin-bottom: 50px;
+ }
+ /* les images des activités sur Marseille*/
+ .imgAct_1{
+    background-image: url("./activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 530px;
+    border-radius: 15px 15px 0 0;
+ }
+ .imgAct_2{
+    background-image: url("./activites/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 250px;
+    border-radius: 15px 15px 0 0;
+ }
+ .imgAct_3{
+    background-image: url("./activites/1_xlarge/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 150px;
+    border-radius: 15px 15px 0 0;
+ }
+ .imgAct_4{
+    background-image: url("./activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 530px;
+    border-radius: 15px 15px 0 0;
+ }
+ .imgAct_5{
+    background-image: url("./activites/1_xlarge/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 200px;
+    border-radius: 15px 15px 0 0;
+ }
+ .imgAct_6{
+    background-image: url("./activites/1_xlarge/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 200px;
+    border-radius: 15px 15px 0 0;
+ }
+ .flexActivités{
+    width: 23%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
+ }
+ .high_title{
+     height: 70px;
+ }
+ .title_Activ{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 5%;
+    width: 95%;
+ }
+/* dispositions des blocs 2;3 et 5;6*/
+.dispobloActiv{
+    width: 23%;
+    height: 600px;
+  }
+.cubeActivity {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
+  }
+.cubeActivity:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+.imgAct_1:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+  .imgAct_4:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+  .BoxPop:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+  .CadreImage:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+  .cubeDetailsPopulaires {
+    padding-left: 35%;
   }
