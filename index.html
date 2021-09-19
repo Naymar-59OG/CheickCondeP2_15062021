@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
     <link
     rel="stylesheet"
     href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
@@ -16,6 +15,7 @@
     href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
     rel="stylesheet"
   />
+  <link rel="stylesheet" href="style.css">
     <title>Reservia</title>
 </head>
 <body>
@@ -26,8 +26,8 @@
         <div class="sizeLien12 boxMilieu "></div>
         <div class="tailleDesentetesliens elementAutour"></div>
         <div class="tailleDesentetelien boxMilieu Navbordure" ><a class="blue colorLien2 decoration0 " href="#Hébergements">Hébergements</a></div>
-        <div class="tailleDesentetelien boxMilieu"><a class="colorA decoration0" href="#Activités">Activités</a></div>
-        <div class="tailleDesentetelien boxMilieu"><a class="Tx_Gras blue decoration0" href="#S'inscrire">S'inscrire</a></div>
+        <div class="tailleDesentetelien boxMilieu Navbordure"><a class="colorA decoration0" href="#Activités">Activités</a></div>
+        <div class="tailleDesentetelien boxMilieu Navbordure"><a class="Tx_Gras blue decoration0" href="S'inscrire">S'inscrire</a></div>
         </div>
     </nav>
   <header>
@@ -50,16 +50,16 @@
       <h3>Filtres</h3>
       </div>
       <div class="Icone_filtre Center">
-        <i class=" fas fa-money-bill-wave fa-lg F_icones Center"></i><div class="T_filtre Center">Economiques</div>
+       <i class=" fas fa-money-bill-wave fa-lg  Center F_icones"></i><div class="T_filtre boxMilieu">Economiques</div>
       </div>
-    <div class="Icone_filtre boxMilieu">
-      <i class="fas fa-child F_icones fa-lg "></i><div class="T_filtre boxMilieu">Familiale</div>
+   <div class="Icone_filtre Center">
+      <i class="fas fa-child F_icones fa-lg Center"></i><div class="T_filtre boxMilieu">Familiale</div>
     </div> 
-  <div class="Icone_filtre  boxMilieu">
-    <i class="fas fa-heart F_icones fa-lg "></i><div class="T_filtre boxMilieu">Romantiques</div>
+  <div class="Icone_filtre  Center">
+    <i class="fas fa-heart F_icones fa-lg Center"></i><div class="T_filtre boxMilieu">Romantiques</div>
   </div>
       <div class="Icone_filtre  boxMilieu">
-        <i class="fas fa-dog F_icones fa-lg "></i><div class="T_filtre boxMilieu">Animeaux Autorisés</div> 
+        <i class="fas fa-dog F_icones fa-lg Center"></i><div class="T_filtre boxMilieu">Animeaux Autorisés</div> 
       </div>
   </div> 
 <div class="style_Icone">
@@ -70,7 +70,7 @@
 </div>
   </header>
   <!--partie hébergements-->   
-  <section class="elementAutour flexBetween">
+  <section id="Hébergements" class="elementAutour flexBetween">
     <div class="alignements_hébergmentsAutour T_hébergement ArrGrey dispo_hébergements">
       <h2>Hébergements à Marseille</h2>
       <div class="blocHéberge1 flexBetween">
@@ -203,7 +203,7 @@
     </div>
     </div>
   </section>
-  <section>
+  <section id="Activités">
     <h2> Activités à Marseille</h2>
     <div class="box_Activ flexBetween">
       <!-- premier bloc d'image_1 -->

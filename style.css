@@ -64,8 +64,13 @@ body {
     color: black;
 }
 
-.Navbordure{
+.Navbordure:hover{
     border-top: 1px solid blue;
+    cursor: pointer;
+}
+.Navbordure:hover > a{
+    color:  blue;
+    cursor: pointer;
 }
 .heighNave{
     height: 100px;
@@ -122,8 +127,32 @@ body {
 .Filtre{
     margin-right: 20px;
     
-
 }
+.contener_incones_tx{
+    border: 2px solid #f2f2f2;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+.Cercle{
+    margin-left: -2px;
+    border-radius: 25px;
+    width: 52px;
+    height: 52px;
+    color: #0065fc;
+    background-color: #deebff;
+}
+
+
+
+
+
+
+
+
+
+
+
 .Icone_filtre{
     border: 2px solid #f2f2f2;
     height: 50px;
@@ -137,7 +166,9 @@ body {
     width: 52px;
     height: 52px;
     color: #0065fc;
-    background-color: #f2f2f2;   
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;   
 }
 .Icone_filtre:hover > .T_filtre{
     color: #0065fc;
@@ -169,8 +200,8 @@ body {
 }
 .Center{
     display: flex;
-  justify-content: center;
-  align-items: center;
+    justify-content: center;
+    align-items: center;
 }
 /* section hébergement*/
 .T_hébergement{
@@ -433,3 +464,7 @@ body {
 .T_BlocFoot{
     height: 150px;
   }
+  /* #billet{
+      display: flex;
+      align-items: center; 
+  } */
